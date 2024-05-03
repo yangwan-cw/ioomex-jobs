@@ -1,4 +1,4 @@
-import type { RouteRecordRaw } from 'vue-router'
+import type { RouteRecordRaw } from 'vue-router';
 
 /*
  * @Author       : sutton
@@ -28,6 +28,6 @@ const message: Array<RouteRecordRaw> = [
     name: 'talk',
     component: () => import('@/views/message/talk.vue')
   }
-]
+];
 
-export default message
+export default message;

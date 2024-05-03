@@ -5,10 +5,10 @@
  * @LastEditTime : 2024-05-03 00:50:30
  * @Description  : 用于管路系统中路由，采用这种方式不好维护，采用模块式路由
  */
-import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
-import routerModule from './route'
+import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router';
+import routerModule from './route';
 
-const routes: Array<RouteRecordRaw> = [...routerModule]
+const routes: Array<RouteRecordRaw> = [...routerModule];
 
 /**
  * @description: 创建路由
@@ -18,6 +18,6 @@ const routes: Array<RouteRecordRaw> = [...routerModule]
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes
-})
+});
 
-export default router
+export default router;

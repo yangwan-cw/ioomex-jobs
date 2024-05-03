@@ -1,4 +1,4 @@
-import type { RouteRecordRaw } from 'vue-router'
+import type { RouteRecordRaw } from 'vue-router';
 
 const talent: Array<RouteRecordRaw> = [
   {
@@ -11,6 +11,6 @@ const talent: Array<RouteRecordRaw> = [
     name: 'detail',
     component: () => import('@/views/talent/detail.vue')
   }
-]
+];
 
-export default talent
+export default talent;

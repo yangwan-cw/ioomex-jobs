@@ -1,4 +1,4 @@
-import type { RouteRecordRaw } from 'vue-router'
+import type { RouteRecordRaw } from 'vue-router';
 
 /**
  * @param {Array<RouteRecordRaw>} contract
@@ -24,6 +24,6 @@ const contract: Array<RouteRecordRaw> = [
     name: 'progress',
     component: () => import('@/views/contract/progress.vue')
   }
-]
+];
 
-export default contract
+export default contract;

@@ -6,7 +6,7 @@
  * @Description  : 请填写简介
  */
 
-import type { RouteRecordRaw } from 'vue-router'
+import type { RouteRecordRaw } from 'vue-router';
 
 const my: Array<RouteRecordRaw> = [
   {
@@ -84,6 +84,6 @@ const my: Array<RouteRecordRaw> = [
     name: 'collect',
     component: () => import('@/views/my/collect/index.vue')
   }
-]
+];
 
-export default my
+export default my;

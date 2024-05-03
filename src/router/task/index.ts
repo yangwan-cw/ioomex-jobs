@@ -1,4 +1,4 @@
-import type { RouteRecordRaw } from 'vue-router'
+import type { RouteRecordRaw } from 'vue-router';
 
 /**
  * @Author       : ioomex
@@ -27,6 +27,6 @@ const task: Array<RouteRecordRaw> = [
     name: 'companySource',
     component: () => import('@/views/task/companySource.vue')
   }
-]
+];
 
-export default task
+export default task;

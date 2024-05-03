@@ -1,4 +1,4 @@
-import type { RouteRecordRaw } from 'vue-router'
+import type { RouteRecordRaw } from 'vue-router';
 
 /*
  * @Author       : ioomex
@@ -25,6 +25,6 @@ const login: Array<RouteRecordRaw> = [
     name: 'serviceAgree',
     component: () => import('@/views/login/serviceAgree.vue')
   }
-]
+];
 
-export default login
+export default login;
