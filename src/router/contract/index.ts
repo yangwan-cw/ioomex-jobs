@@ -1,4 +1,4 @@
-import type { RouteRecordRaw } from 'vue-router';
+import type { RouteRecordRaw } from 'vue-router'
 
 /**
  * @param {Array<RouteRecordRaw>} contract
@@ -26,4 +26,4 @@ const contract: Array<RouteRecordRaw> = [
   }
 ];
 
-export default contract;
+export default contract

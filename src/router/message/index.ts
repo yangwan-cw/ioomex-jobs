@@ -1,12 +1,11 @@
-import type { RouteRecordRaw } from 'vue-router';
-
 /*
  * @Author       : sutton
  * @Date         : 2024-05-03 01:03:36
- * @LastEditors  : Please set LastEditors
- * @LastEditTime : 2024-05-03 01:06:59
+ * @LastEditors  : 
+ * @LastEditTime : 2024-05-03 11:17:47
  * @Description  : 请填写简介
  */
+import type { RouteRecordRaw } from 'vue-router'
 const message: Array<RouteRecordRaw> = [
   {
     path: '/message',
@@ -30,4 +29,4 @@ const message: Array<RouteRecordRaw> = [
   }
 ];
 
-export default message;
+export default message

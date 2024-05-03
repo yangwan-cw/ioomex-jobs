@@ -1,12 +1,4 @@
-/*
- * @Author       : sutton
- * @Date         : 2024-05-03 01:13:00
- * @LastEditors  : Please set LastEditors
- * @LastEditTime : 2024-05-03 01:21:25
- * @Description  : 请填写简介
- */
-
-import type { RouteRecordRaw } from 'vue-router';
+import type { RouteRecordRaw } from 'vue-router'
 
 const my: Array<RouteRecordRaw> = [
   {
@@ -86,4 +78,4 @@ const my: Array<RouteRecordRaw> = [
   }
 ];
 
-export default my;
+export default my

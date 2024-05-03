@@ -1,11 +1,6 @@
-import type { RouteRecordRaw } from 'vue-router';
+import type { RouteRecordRaw } from 'vue-router'
 
-/**
- * @Author       : ioomex
- * @Date         : 2024-05-03 00:46:17
- * @LastEditors  : ioomex
- * @LastEditTime : 2024-05-03 00:50:41
- */
+
 const task: Array<RouteRecordRaw> = [
   {
     path: '/task',
@@ -29,4 +24,4 @@ const task: Array<RouteRecordRaw> = [
   }
 ];
 
-export default task;
+export default task

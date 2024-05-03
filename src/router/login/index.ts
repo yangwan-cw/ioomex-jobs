@@ -1,14 +1,4 @@
 import type { RouteRecordRaw } from 'vue-router';
-
-/*
- * @Author       : ioomex
- * @Date         : 2024-05-03 00:46:17
- * @LastEditors  : Please set LastEditors
- * @LastEditTime : 2024-05-03 01:34:07
- * @Description  : 登录模块
- * @param {Array<RouteRecordRaw>} contract
- * @returns {Array<RouteRecordRaw>}
- */
 const login: Array<RouteRecordRaw> = [
   {
     path: '/login',
@@ -27,4 +17,4 @@ const login: Array<RouteRecordRaw> = [
   }
 ];
 
-export default login;
+export default login
