@@ -138,3 +138,21 @@ pnpm lint
         "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
 
 ```
+
+
+### api
+api
+    user.ts   // 登录模块api
+    task.ts   // 任务模块api
+    contract.ts // 合约模块api
+    message.ts // 消息模块 api
+    my.ts // 我的模块 api
+    talent.ts // 人才模块 api
+
+### 静态资源
+assets
+    img     // 图片资源
+        icon    // icon 图标类图片
+
+    css     // 样式资源
+        style.css // 公共样式
