@@ -124,8 +124,17 @@ pnpm lint
         |   |-- detail.vue    # 人才详情视图组件
         |   |-- index.vue     # 人才视图入口文件
         |-- task              # 任务视图目录
-            |-- companySource.vue    # 公司资源视图组件
+            |--  .vue    # 公司资源视图组件
             |-- details.vue    # 任务详情视图组件
             |-- index.vue      # 任务视图入口文件
             |-- search.vue     # 搜索视图组件
+```
+
+
+### eslint 配置不生效
+```
+    // "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+使用下代码
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
+
 ```

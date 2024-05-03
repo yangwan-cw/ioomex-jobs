@@ -5,8 +5,7 @@
  * @LastEditTime : 2024-05-03 01:29:51
  * @Description  : 请填写简介
 -->
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
@@ -14,5 +13,4 @@
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

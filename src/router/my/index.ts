@@ -42,11 +42,10 @@ const my: Array<RouteRecordRaw> = [
   },
 
   {
-    path:'/my/feedback',
-    name:'feedback',
-    component:()=>import('@/views/my/feedback/index.vue')
+    path: '/my/feedback',
+    name: 'feedback',
+    component: () => import('@/views/my/feedback/index.vue')
   },
-
 
   {
     path: '/my/account',
@@ -69,7 +68,6 @@ const my: Array<RouteRecordRaw> = [
     component: () => import('@/views/my/account/advance.vue')
   },
 
-
   {
     path: '/my/resume',
     name: 'resume',
@@ -81,12 +79,11 @@ const my: Array<RouteRecordRaw> = [
     component: () => import('@/views/my/resume/preview.vue')
   },
 
-
   {
     path: '/my/collect',
     name: 'collect',
     component: () => import('@/views/my/collect/index.vue')
-  },
+  }
 ]
 
 export default my

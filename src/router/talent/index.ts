@@ -10,7 +10,7 @@ const talent: Array<RouteRecordRaw> = [
     path: '/talent/detail/:id',
     name: 'detail',
     component: () => import('@/views/talent/detail.vue')
-  },
+  }
 ]
 
 export default talent
