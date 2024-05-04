@@ -4,7 +4,7 @@ import FooterTabbar from './components/FooterTabbar.vue';
 
 <template>
   <RouterView />
-  <FooterTabbar />
+
 </template>
 
 <style scoped></style>
